@@ -756,6 +756,7 @@ nav {
   padding-top: 74px;
 }
 .card {
+  position: relative;
   img {
     width: 550px;
     height: 360px;
@@ -777,7 +778,7 @@ nav {
     padding-top: 28px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 390px;
+    bottom: 140px;
     transition: 0.8s;
     h2 {
       font-family: "Inter";
@@ -820,7 +821,7 @@ nav {
 .card:hover .intro {
   height: 360px;
   width: 550px;
-  bottom: 250px;
+  bottom: 0px;
   background: rgb(27, 27, 27, 0.9);
   border-radius: 30px;
 }
@@ -1284,7 +1285,7 @@ nav {
 
   .form_title {
     font-weight: 800;
-    font-size: 43.6019px;
+    font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
     padding-bottom: 15px;
